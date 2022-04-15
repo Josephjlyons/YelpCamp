@@ -8,8 +8,6 @@ const methodOverride = require('method-override');
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const ExpressError = require('./utils/ExpressError');
-const campgrounds = require('./routes/campground');
-const reviews = require('./routes/reviews');
 const User = require('./models/user');
 
 const userRoutes = require('./routes/user');
@@ -62,7 +60,7 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 app.use((req, res, next) => {
-    if(!['/login', '/'].includes(req.originalUrl)){
+    if(!['/login','/register', '/'].includes(req.originalUrl)){
         req.session.returnTo = req.originalUrl;
     }
     res.locals.currentUser = req.user;
