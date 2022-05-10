@@ -21,7 +21,7 @@
 
 Find the right campground to enjoy! A website built just for that with reviews, ratings, locations, mapping and pricing to make sure your camping experience goes off without a hitch!
 
-![image of app](client/public/assets/main.png)
+
 ## Features 
 
 * Secure Log in built with Passport.
