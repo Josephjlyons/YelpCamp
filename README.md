@@ -4,6 +4,7 @@
 
 # <h1 align='center'> [Visit YelpCamp!](https://desolate-wave-19277.herokuapp.com/)
 </h1>
+ <p align='center'> *currently down due to change in heroku tiers
 
 ## Table of Contents
 
