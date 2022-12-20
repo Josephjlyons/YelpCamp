@@ -30,7 +30,7 @@ Find the right campground to enjoy! A website built just for that with reviews, 
 * Useable map with pinpointed campground locations
 * Easy to use interface.
 * Protected routes with login.
-* Easy to use interface. 
+ 
 
 
 
